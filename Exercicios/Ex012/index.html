@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video está hospedado no meu próprio servidor.</p>
+    <!--<video src="midia/meu-video1.webm" width="300" controls></video>-->
+    <video width="300" controls loop>
+        <source src="midia/meu-video1.mp4" type="video/mp4">
+        <source src="midia/meu-video1.webm" type="video/webm">
+        <source src="midia/meu-video1.ogv" type="video/ogv">
+        <p>Seu navegador não tem compatibilidade com o video, realize o <a href="midia/meu-video1.mp4">download do video</a></p>
+    </video>
+
+    <h1>Aqui esta um video incorporado no youtube</h1>
+    <iframe width="300" height="300" src="https://www.youtube.com/embed/uGhXeunMMX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Aqui esta um video hospedado no vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/435280746?h=88a66fb4ab&title=0&byline=0&portrait=0" width="300" height="300" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Video Hospedado do RedeCanais</h1>
+    <iframe name=Player "" src="https://sinalpublico.com/player3/server4httphlb.php?vid=THEBOST01EP07" frameborder=0 height=300 scrolling=no width=300 allowFullScreen> </iframe>
+</body>
+</html>
