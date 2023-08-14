@@ -5,8 +5,15 @@ header {
 }
 
 nav {
-    text-align: center;
+    margin: auto;
     color: white;
+}
+
+p {
+    border-left-width: 100px;
+    padding-left: 30px;
+    padding-right: 865px;
+    padding-top: 15px;
 }
 
 footer {
