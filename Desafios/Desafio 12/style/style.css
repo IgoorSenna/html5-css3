@@ -1,11 +1,18 @@
 @charset "UTF-8";
 
 header {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
     background: black;
+    font-size: 50px;
 }
 
-nav {
-    margin: auto;
+nav {   
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
     color: white;
 }
 
@@ -29,10 +36,7 @@ footer {
 
 #girasol {
     height: 85vh;
-    /*height: 100%;
-    background-repeat: no-repeat;
-    background-size: 50%;
-    background-image: url(../imagens/background001.jpg);*/
+
     background: black url(../imagens/background001.jpg) center center no-repeat fixed;
     background-size: cover;
 }
@@ -63,4 +67,8 @@ footer {
     text-align: left;
     background-color: rgba(0, 0, 0, 0.342);
     color: white;
+}
+
+footer {
+    text-align: justify;
 }
