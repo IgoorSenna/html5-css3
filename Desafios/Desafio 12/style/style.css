@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+header {
+    background: black;
+}
+
+nav {
+    text-align: center;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.texto {
+    font-size: 28px;
+    text-align: left;
+}
+
+#girasol {
+    height: 60vh;
+    /*height: 100%;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-image: url(../imagens/background001.jpg);*/
+    background: black url(../imagens/background001.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+#tgirasol {
+
+    background-color: rgba(0, 0, 0, 0.342);
+    color: white;
+}
+
+#livro {
+    height: 60vh;
+    background: black url(../imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+    /*background-image: url(../imagens/background002.jpg);
+    color: white;*/
+}
+
+#tlivro {
+    border-left-width: 100px;
+    padding-left: 30px;
+    padding-right: 865px;
+    padding-top: 20px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.342);
+    color: white;
+}
