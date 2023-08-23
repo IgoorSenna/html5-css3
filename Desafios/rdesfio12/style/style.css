@@ -1,2 +1,38 @@
 @charset "UTF-8";
 
+* {
+    margin: 0px;
+    /* TIRAR O ESPAÇO DO TEXTO */
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    /* text-transform: uppercase; */ /* TRANSFORMAR LETRAS EM MAIUSCULA */
+    font-variant: small-caps; /* OUTRA ALTERNATIVA PARA TRANSFORMAR EM MAIUSCULA */
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
